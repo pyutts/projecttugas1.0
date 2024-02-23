@@ -49,8 +49,8 @@ function emptyList() {
 }
 
 var myArray = [];
-myArray.push("something to store");
-myArray.push("something else to store");
+myArray.push("hallo sayang by pyuts");
+myArray.push("hallo sayang by pyuts");
 alert(myArray[0]);
 //This will alert "something to store"
 
