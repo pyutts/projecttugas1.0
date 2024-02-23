@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyuts To do list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-wrapper">
+        <h2>Tabel tugas pyuts </h2>
+        <p>klik 2x untuk memunculkan,mengubah,menghapus daftar.</p>
+
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <button id="add-button" class="pretty-button">Tambahkan</button>
+        <br />
+        <ol id="todo-list">
+        </ol>
+        <div id="control-wrapper">
+            <button id="clear-completed-button" onclick="clearCompletedToDoItems()" class="pretty-button">Sudah Selesai</button>
+            <button id="empty-button" onclick="emptyList()" class="pretty-button">HapusList</button>
+            <button id="save-button" onclick="saveList()" class="pretty-button">Simpan list</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
